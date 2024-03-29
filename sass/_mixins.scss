@@ -1,0 +1,25 @@
+@mixin btn_hover {
+  &:hover {
+    background-image: none;
+    background-color: red;
+  }
+}
+
+@mixin white_label {
+  width: 112px;
+  height: 24px;
+  background-color: #ffffff;
+  font-size: 11px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #070716;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 25px;
+}
+@mixin style_footer {
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #070716;
+}
